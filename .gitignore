@@ -3,4 +3,4 @@ vendor/*
 *.json
 *.aof
 *.rdb
-
+cluster-util/*/nodes.conf
