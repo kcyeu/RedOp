@@ -1,5 +1,5 @@
 #!/bin/sh
 
-../../cluster-test/run.sh flushall
-php ./poc.php >> performance.log
+../cluster-util/cluster-util.sh flushall
+php ./poc.php >> ${1}
 
